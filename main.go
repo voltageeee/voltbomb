@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	bambam.Attack("79858091820", 5)
+	bambam.Attack("79858091820", 5, 5)
 }

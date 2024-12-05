@@ -52,7 +52,7 @@ func changephonenum(data interface{}, num string) {
 	}
 }
 
-func Attack(num string, cycles int) {
+func Attack(num string, cycles int, sleeptime int) {
 	file, err := os.ReadFile("data.json")
 	if err != nil {
 		log.Fatal(err)
@@ -85,7 +85,7 @@ func Attack(num string, cycles int) {
 
 			log.Print("Made request to "+i+", response: ", resp.Status+" || "+string(body))
 
-			time.Sleep(time.Second * 5)
+			time.Sleep(time.Second * time.Duration(sleeptime))
 		}
 	}
 }
