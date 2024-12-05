@@ -1,0 +1,18 @@
+{
+    "https://era-medcenter.ru/doctor/sendSms": {
+        "fio": "Владимир Путин",
+        "phoneNumber": "",
+        "email": null,
+        "comment": "\n09 декабря (Понедельник) в 15:30\nВендерлых Ирина Ивановна",
+        "subject": "Заявка c era-medcenter.ru",
+        "requestUrl": "https://era-medcenter.ru/zapis-na-priem",
+        "sessionId": null,
+        "format_type": "format_wide"
+    },
+
+    "https://sayoris.ru/api/user/register": {
+        "format_type": "format_strange",
+        "phone": "",
+        "verify_type": "call"
+    }
+}
