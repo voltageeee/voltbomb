@@ -66,7 +66,7 @@ func Attack(num string, cycles int, sleeptime int) {
 
 	for i := 0; i < cycles; i++ {
 		for i, v := range services {
-			changephonenum(v, "79858091820")
+			changephonenum(v, num)
 
 			reqbody, err := json.Marshal(v)
 			if err != nil {
